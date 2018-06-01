@@ -1,0 +1,46 @@
+
+:root{
+  --COLOR-MAIN-THEME-BG:#241C23;
+  --COLOR-MAIN-THEME-LOGO:#F76600;
+  --COLOR-MAIN-THEME-BG2:#701B1B;
+  --COLOR-LIGHT-GREY:#E6E6E6;
+  --COLOR-WHITE:#FFFFFF
+}
+
+
+
+.Header{
+  height:130px;
+  background-color: var(--COLOR-MAIN-THEME-BG);
+  display: flex;
+}
+
+.Logo{
+  width: 30%;
+  font-family: Impact;
+  font-size: 70px;
+  height: 100%;
+  text-align: center;
+
+}
+
+.Logo div{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.Logo .span1{
+  color: var(--COLOR-MAIN-THEME-LOGO);
+
+
+}
+.Logo .span2{
+  color: var(--COLOR-MAIN-THEME-BG2);
+}
+
+.Main-menu{
+  color: var(--COLOR-WHITE);
+  width: 50%;
+}
