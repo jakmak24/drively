@@ -1,0 +1,17 @@
+
+:root{
+  --COLOR-MAIN-THEME-BG:#241C23;/* DARK BLUE*/
+  --COLOR-MAIN-THEME-LOGO:#F76600;/* ORANGE*/
+  --COLOR-MAIN-THEME-BG2:#701B1B;/* CLARNET*/
+  --COLOR-LIGHT-GREY:#E6E6E6;
+  --COLOR-WHITE:#FFFFFF
+}
+
+html,body { height: 100%; margin: 0px; padding: 0px; }
+#full { background: #0f0; height: 100% }
+
+
+
+.Layout{
+  height: 100%;
+}

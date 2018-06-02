@@ -1,0 +1,7 @@
+@import url("./Layout.css");
+
+.SideBar{
+  background-color: var(--COLOR-MAIN-THEME-BG2);
+  height: 100%;
+  width: 20%;
+}

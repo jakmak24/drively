@@ -1,0 +1,7 @@
+@import url("./Layout.css");
+
+.MainView{
+  background-color: var(--COLOR-LIGHT-GREY);
+  
+  width: 80%;
+}
