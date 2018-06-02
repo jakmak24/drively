@@ -1,0 +1,28 @@
+@import url("./Layout.css");
+
+.CarNavigator{
+  background-color: var(--COLOR-MAIN-THEME-BG);
+}
+
+.CarNavigator div{
+  display: flex;
+  justify-content: center;
+}
+
+.CarNavigator .Filters button{
+  margin: 10px;
+}
+
+
+.CarNavigator #vehicleFilter{
+
+  border: 1px solid #ddd;
+  margin: 0px 5px 12px 5px;
+  width: 100%;
+
+}
+
+.CarNavigator .fa-search{
+  margin: 2px;
+  font-size: 20px;
+}

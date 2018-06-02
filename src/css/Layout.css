@@ -1,3 +1,4 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 
 :root{
   --COLOR-MAIN-THEME-BG:#241C23;/* DARK BLUE*/
@@ -9,7 +10,6 @@
 
 html,body { height: 100%; margin: 0px; padding: 0px; }
 #full { background: #0f0; height: 100% }
-
 
 
 .Layout{
