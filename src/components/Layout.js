@@ -1,7 +1,8 @@
 import React from 'react';
 
 import Header from "./Header"
-import Body from "./Body"
+import SideBar from "./SideBar"
+import MainView from "./MainView"
 
 export default class Layout extends React.Component {
 
@@ -10,7 +11,8 @@ export default class Layout extends React.Component {
     return (
       <div className = "Layout">
         <Header />
-        <Body />
+        <SideBar/>
+        <MainView />
       </div>
     );
   }

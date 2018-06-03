@@ -1,11 +1,14 @@
 @import url("./Layout.css");
 
 .SideBar{
+
+  position: fixed;
+  float:left;
   background-color: var(--COLOR-MAIN-THEME-BG2);
   height: 100%;
   width: 20%;
   color: var(--COLOR-WHITE);
-
+  overflow: hidden;
   font-size: 35px;
 
 }

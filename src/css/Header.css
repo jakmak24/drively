@@ -1,10 +1,13 @@
 @import url("./Layout.css");
 
 .Header{
-  position:relative;
+
+  position: sticky;
+  top:0;
   height:130px;
   background-color: var(--COLOR-MAIN-THEME-BG);
   display: flex;
+
 }
 
 .Logo{
@@ -26,35 +29,36 @@
 .Logo .span1{
   color: var(--COLOR-MAIN-THEME-LOGO);
 
+
 }
 .Logo .span2{
   color: var(--COLOR-MAIN-THEME-BG2);
 }
 
 .Main-menu{
+  position: relative;
   width: 50%;
-  font-size: 25px;
 }
 
 .Main-menu ul{
   list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  position: absolute;
-  bottom: 0;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   position: absolute;
+   bottom: 0;
 
 }
 
 .Main-menu li {
-  float: left;
+    float: left;
 }
 
 .Main-menu li a {
-
-  color: var(--COLOR-WHITE);
-  display: block;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+    text-size: 35px;
+    color: var(--COLOR-WHITE);
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
