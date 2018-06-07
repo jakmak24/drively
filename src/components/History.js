@@ -21,7 +21,7 @@ class HistoryListItem extends React.Component{
   render(){
     return(
       <ul>
-        <li><i></i></li>
+        <li><img src={window.location.origin + '/icons/'+this.props.category+'R.svg'} alt={this.props.category}></img></li>
         <li>{this.props.name}</li>
         <li>{this.props.car}</li>
         <li>
