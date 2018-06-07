@@ -1,5 +1,46 @@
 @import url("./Layout.css");
 
 .QuickAdd{
-  
+  border: 1px solid black;
+  padding-left: 3%;
+}
+
+.Title{
+  margin: 0px;
+  margin-top: 8px;
+}
+
+div.QuickAdd > p{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+div.QuickOptions{
+  background: lightgrey;
+  border: 1px solid black;
+  width: 110px;
+  margin-left: 0px;
+  margin-right: 25px;
+  float:left;
+}
+
+div.QuickOptions > img{
+float: right;
+width: 30px;
+height: 30px;
+margin-top:4px;
+margin-right: -15px;
+}
+
+div.QuickOptions > p{
+  font-weight: bold;
+  float:left;
+  margin: 10px 10px;
+}
+
+.clearfix::after {
+   content: " ";
+   display: block;
+   height: 0;
+   clear: both;
 }
