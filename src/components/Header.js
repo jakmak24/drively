@@ -2,22 +2,59 @@ import React from 'react';
 import "../css/Header.css";
 
 export default class Header extends React.Component {
+
+  constructor(props){
+    super(props);
+    this.state = {dashboardActive : true,
+    vehiclesActive : false,
+    operationsActive : false,
+    statisticsActive : false
+  }
+    //this.activate = this.activate.bind(this);
+  }
+
+  activate(state){
+let dashboardActive = false;
+let vehiclesActive = false;
+let operationsActive = false;
+let statisticsActive = false;
+
+if(state.indexOf("dashboard")>-1)
+  dashboardActive = true;
+else if(state.indexOf("vehicles")>-1)
+  vehiclesActive = true;
+else if(state.indexOf("operations")>-1)
+  operationsActive = true;
+else if(state.indexOf("statistics")>-1)
+    statisticsActive = true;
+
+    this.setState({dashboardActive : dashboardActive,
+    vehiclesActive : vehiclesActive,
+    operationsActive : operationsActive,
+    statisticsActive : statisticsActive
+  });
+    // this.dashboardActive = false;
+    // this.vehiclesActive = false;
+    // this.operationsActive = false;
+    // this.statisticsdActive = false;
+
+  }
+
   render() {
     return (
       <div className="Header">
 
         <div className="Logo">
-          <div>
+        <br />
             <span className="span1">Drive</span>
             <span className="span2">ly</span>
-          </div>
         </div>
         <div className="Main-menu">
           <ul>
-          <li><a>Dashboard</a></li>
-          <li><a>Vehicles</a></li>
-          <li><a>Operations</a></li>
-          <li><a>Statistics</a></li>
+          <li><a className={this.state.dashboardActive ? "active" : ""} onClick={() => this.activate("dashboard")} href="#/Dashboard">Dashboard</a></li>
+          <li><a className={this.state.vehiclesActive ? "active" : ""} onClick={() => this.activate("vehicles")} href="#/Vehicles">Vehicles</a></li>
+          <li><a className={this.state.operationsActive ? "active" : ""} onClick={() => this.activate("operations")} href="#/Operations">Operations</a></li>
+          <li><a className={this.state.statisticsActive ? "active" : ""} onClick={() => this.activate("statistics")} href="#/Statistics">Statistics</a></li>
           </ul>
         </div>
 

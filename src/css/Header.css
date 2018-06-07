@@ -1,28 +1,106 @@
 @import url("./Layout.css");
 
 .Header{
+  height:130px;
+  background-color: var(--COLOR-MAIN-THEME-BG);
+}
+
+.Logo {
+  font-family: Impact;
+}
+
+div.Logo {
+  display: inline;
+  width:20%;
+  height:100%;
+  float:left;
+  text-align:center;
+
+}
+
+.span1{
+  color: var(--COLOR-MAIN-THEME-LOGO);
+  font-size: 70px;
+}
+
+.span2{
+  color: var(--COLOR-MAIN-THEME-BG2);
+  font-size: 70px;
+}
+
+/*
+  DISPLAY: INLINE;
+  POSITION: RELATIVE;
+  WIDTH: 80%;
+  HEIGHT: 100%
+}*/
+
+div.Main-menu{
+  width: 80%;
+  height: 100%;
+  FLOAT:LEFT;
+}
+
+div.Main-menu ul {
+  list-style-type: none;
+  width: 100%;
+  margin: 0;
+  padding: 0 0 0 2%;
+  position:relative;
+  top: 97px;
+}
+
+div.Main-menu li {
+    float: left;
+    width: 110px;
+    min-width: 70px;
+    text-align: center;
+    padding: 1% 1%;
+    margin-right: 1%
+}
+
+div.Main-menu a.active {
+  border-bottom: 7px solid var(--COLOR-MAIN-THEME-LOGO);
+}
+
+div.Main-menu a:hover:not(.active){
+  border-bottom: 7px solid rgb(171, 70, 0);
+}
+
+div.Main-menu a {
+    text-size: 35px;
+    color: var(--COLOR-WHITE);
+    display: block;
+    text-decoration: none;
+}
+
+/*.Header{
 
   position: sticky;
+  display: flex;
   top:0;
   height:130px;
   background-color: var(--COLOR-MAIN-THEME-BG);
-  display: flex;
+
 
 }
 
 .Logo{
-  width: 20%;
   font-family: Impact;
   font-size: 70px;
   height: 100%;
   text-align: center;
-
+  float:left;
 }
 
 .Logo div{
   position: relative;
   top: 50%;
   left: 50%;
+  width:20%;
+  height: 100%;
+  float:left;
+
   transform: translateX(-50%) translateY(-50%);
 }
 
@@ -36,8 +114,11 @@
 }
 
 .Main-menu{
+  float:left;
+  display: inline;
   position: relative;
-  width: 50%;
+  width: 80%;
+  height: 100%
 }
 
 .Main-menu ul{
@@ -46,12 +127,18 @@
    padding: 0;
    overflow: hidden;
    position: absolute;
-   bottom: 0;
+   bottom: -3%;
+   display: block;
+   width: 100%;
 
 }
 
 .Main-menu li {
     float: left;
+    margin-right: 2%;
+    border-bottom: 10px solid var(--COLOR-MAIN-THEME-LOGO);
+    width: 8%;
+    text-align: center;
 }
 
 .Main-menu li a {
@@ -61,4 +148,4 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-}
+}*/
