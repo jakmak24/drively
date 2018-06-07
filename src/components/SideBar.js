@@ -7,11 +7,11 @@ export default class SideBar extends React.Component {
   render() {
     return (
       <div className ="SideBar">
-        <div>
-          <a>Garage</a>
-          <button>Add Vehicle</button>
-        </div>
-        <CarNavigator />
+      <div className="clearfix">
+        <p className="Garage">Garage</p>
+        <button className="addNew">Add Vehicle</button>
+      </div>
+          <CarNavigator />
       </div>
 
     );

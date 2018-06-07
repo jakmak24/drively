@@ -1,0 +1,43 @@
+@import url("./Layout.css");
+
+.CarAvatar{
+  margin: 2%;
+  border: 2px solid lightgrey;
+  background: lightgrey;
+}
+
+.ImgContainer{
+  border-color:
+}
+
+.Image{
+  width:100px;
+  height: 75px;
+  margin-right: 10px;
+  float:left;
+  border: 2px solid grey;
+}
+
+.Info{
+  float:left;
+}
+
+div.Info p{
+  color: grey;
+  margin: 0px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+div.Info p.Name{
+  color: var(--COLOR-MAIN-THEME-BG2);
+  margin: 0px;
+  font-size: 16px;
+}
+
+.clearfix::after {
+   content: " ";
+   display: block;
+   height: 0;
+   clear: both;
+}

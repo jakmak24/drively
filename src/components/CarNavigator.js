@@ -1,21 +1,28 @@
 import React from 'react';
 import "../css/CarNavigator.css";
 
+import CarAvatar from "./CarAvatar";
+
 export default class CarNavigator extends React.Component {
   render() {
     return (
       <div className ="CarNavigator">
         <div className ="Filters">
-          <button >
-            Status <i class="fa fa-caret-down"></i>
-          </button>
-          <button >
-            Favorite <i class="fa fa-caret-down"></i>
-          </button>
+          <select className="Select">
+            <option value="Status">Status</option>
+          </select>
+          <select className="Select">
+            <option value="Favorites">Favorites</option>
+          </select>
         </div>
         <div>
-          <input type="text" id="vehicleFilter" onkeyup="myFunction()" placeholder="Search for vehicles.."></input>
+          <input className="Search" type="text" id="vehicleFilter" placeholder="Search for vehicles.."></input>
+          <button className="Search">O</button>
         </div>
+
+        <CarAvatar />
+        <CarAvatar />
+        <CarAvatar />
       </div>
     );
   }

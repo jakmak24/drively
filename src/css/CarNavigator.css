@@ -2,23 +2,50 @@
 
 .CarNavigator{
   background-color: var(--COLOR-MAIN-THEME-BG);
+  margin: 0px 5%;
+
 }
 
 .CarNavigator div{
-  display: flex;
-  justify-content: center;
+  /*display: flex;*/
+  /* justify-content: center; */
+  /* text-align: center; */
 }
 
+.Select{
+  width:40%;
+  margin: 5%;
+  border-radius: 5px;
+}
+
+input.Search{
+  background: white;
+  margin-left: 5%;
+  margin-bottom: 5%;
+  width: 82.5%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+button.Search{
+  text-align: center;
+  margin-left: -5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  width: 10%;
+  border-radius: 10px;
+}
+
+/*
 .CarNavigator .Filters button{
   margin: 10px;
 }
 
+ .CarNavigator #vehicleFilter{
 
-.CarNavigator #vehicleFilter{
-
-  border: 1px solid #ddd;
+   border: 1px solid #ddd;
   margin: 0px 5px 12px 5px;
-  width: 100%;
+  width: 80%;
 
 }
 
@@ -26,3 +53,4 @@
   margin: 2px;
   font-size: 20px;
 }
+ */

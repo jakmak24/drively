@@ -2,12 +2,10 @@
 
 .MainView{
 
-  left:20%;
   background-color: var(--COLOR-LIGHT-GREY);
   height: 100%;
   width: 80%;
-  float: right;
-
+  float: left;
 }
 
 .MainView div{
