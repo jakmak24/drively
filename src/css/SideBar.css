@@ -3,9 +3,9 @@
 .SideBar{
   /* position: fixed; */
   background-color: var(--COLOR-MAIN-THEME-BG2);
-  height: 100%;
-  width: 20%;
 
+  width: 20%;
+  min-width: 300px;
   color: var(--COLOR-WHITE);
   overflow: hidden;
   float: left;

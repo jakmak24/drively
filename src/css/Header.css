@@ -3,6 +3,7 @@
 .Header{
   height:130px;
   background-color: var(--COLOR-MAIN-THEME-BG);
+  min-width: 1000px;
 }
 
 .Logo {

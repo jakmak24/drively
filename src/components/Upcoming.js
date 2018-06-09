@@ -11,12 +11,10 @@ export default class Upcoming extends React.Component {
           <li><UpcomingListItem category="payment" name="mandat" car="BMW" date="14.07.2018" /></li>
           <li><UpcomingListItem category="refuel" name="tankowanie" car="Opel" date="13.07.2018" /></li>
           <li><UpcomingListItem category="service" name="tankowanie" car="Skoda" date="12.07.2018" /></li>
-          <li><UpcomingListItem category="payment" name="mandat" car="BMW" date="14.07.2018" /></li>
-          <li><UpcomingListItem category="refuel" name="tankowanie" car="Opel" date="13.07.2018" /></li>
-          <li><UpcomingListItem category="service" name="tankowanie" car="Skoda" date="12.07.2018" /></li>
-          <li><UpcomingListItem category="payment" name="mandat" car="BMW" date="14.07.2018" /></li>
-          <li><UpcomingListItem category="refuel" name="tankowanie" car="Opel" date="13.07.2018" /></li>
-          <li><UpcomingListItem category="service" name="tankowanie" car="Skoda" date="12.07.2018" /></li>
+            <li><UpcomingListItem category="payment" name="mandat" car="BMW" date="14.07.2018" /></li>
+            <li><UpcomingListItem category="refuel" name="tankowanie" car="Opel" date="13.07.2018" /></li>
+            <li><UpcomingListItem category="service" name="tankowanie" car="Skoda" date="12.07.2018" /></li>
+            
           <button>View All</button>
         </ul>
       </div>

@@ -11,8 +11,10 @@ export default class Layout extends React.Component {
     return (
       <div className = "Layout">
         <Header />
+        <div className = "Body">
           <SideBar/>
           <MainView />
+        </div>
       </div>
     );
   }
