@@ -3,6 +3,8 @@
 .QuickAdd{
   border: 1px solid black;
   padding-left: 3%;
+  width: 50%;
+  min-width: 300px;
 }
 
 .Title{

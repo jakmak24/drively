@@ -5,6 +5,7 @@
   background-color: var(--COLOR-LIGHT-GREY);
   height: 100%;
   width: 80%;
+  min-width: 700px;
   float: left;
 }
 
@@ -12,10 +13,4 @@
   background-color: var(--COLOR-WHITE);
   margin: 10px;
 
-}
-
-.History{
-  border: 1px solid black;
-  width:48.5%;
-  float: left;
 }

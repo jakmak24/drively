@@ -14,5 +14,11 @@ html,body { height: 100%; margin: 0px; padding: 0px; }
 
 .Layout{
   height: 100%;
-  overflow: hidden;
+  overflow-x: hidden;
+}
+
+.Body{
+
+  min-width: 1000px;
+  display: flex;
 }
