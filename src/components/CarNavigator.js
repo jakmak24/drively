@@ -23,6 +23,7 @@ export default class CarNavigator extends React.Component {
         <CarAvatar />
         <CarAvatar />
         <CarAvatar />
+        <br />
       </div>
     );
   }
