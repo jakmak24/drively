@@ -8,6 +8,7 @@ export default class CarNavigator extends React.Component {
     super(props);
     this.carList = [];
     this.carList.push({
+      key:0,
       name:"Twarzówa",
       brand: "Fait",
       model: "Mltipla",
@@ -15,6 +16,7 @@ export default class CarNavigator extends React.Component {
       imgSrc: "/assets/mltpa.jpg"
     });
     this.carList.push({
+      key:1,
       name:"Maluch",
       brand: "Fait",
       model: "126p",
@@ -22,6 +24,7 @@ export default class CarNavigator extends React.Component {
       imgSrc: "/assets/maluch.jpg"
     });
     this.carList.push({
+      key:2,
       name:"Audi",
       brand: "Audi",
       model: "A2",
@@ -29,6 +32,7 @@ export default class CarNavigator extends React.Component {
       imgSrc: "/assets/a2.jpg"
     });
 
+    this.carSelected = props.carSelectedParent;
   }
 
   render() {
@@ -47,11 +51,14 @@ export default class CarNavigator extends React.Component {
           <button className="Search">O</button>
         </div>
 
-        {this.carList.map(item => <CarAvatar name={item.name}
+        {this.carList.map(item => <CarAvatar
+          key={item.key}
+          name={item.name}
           brand={item.brand}
           model={item.model}
           year={item.year}
-          imgSrc={item.imgSrc} />)}
+          imgSrc={item.imgSrc}
+          carSelectedParent={this.carSelected} />)}
         <br />
       </div>
     );

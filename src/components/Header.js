@@ -1,5 +1,6 @@
 import React from 'react';
 import "../css/Header.css";
+import 'font-awesome/css/font-awesome.min.css';
 
 export default class Header extends React.Component {
 
@@ -51,13 +52,17 @@ else if(state.indexOf("statistics")>-1)
         </div>
         <div className="Main-menu">
           <ul>
-          <li><a className={this.state.dashboardActive ? "active" : ""} onClick={() => this.activate("dashboard")} href="#/Dashboard">Dashboard</a></li>
-          <li><a className={this.state.vehiclesActive ? "active" : ""} onClick={() => this.activate("vehicles")} href="#/Vehicles">Vehicles</a></li>
-          <li><a className={this.state.operationsActive ? "active" : ""} onClick={() => this.activate("operations")} href="#/Operations">Operations</a></li>
-          <li><a className={this.state.statisticsActive ? "active" : ""} onClick={() => this.activate("statistics")} href="#/Statistics">Statistics</a></li>
+          <li><a className={this.state.dashboardActive ? "active NavItem" : "NavItem"} onClick={() => this.activate("dashboard")} href="#/Dashboard">Dashboard</a></li>
+          <li><a className={this.state.vehiclesActive ? "active NavItem" : "NavItem"} onClick={() => this.activate("vehicles")} href="#/Vehicles">Vehicles</a></li>
+          <li><a className={this.state.operationsActive ? "active NavItem" : "NavItem"} onClick={() => this.activate("operations")} href="#/Operations">Operations</a></li>
+          <li><a className={this.state.statisticsActive ? "active NavItem" : "NavItem"} onClick={() => this.activate("statistics")} href="#/Statistics">Statistics</a></li>
           </ul>
+          <div className="ManageAccont">
+          <br />
+            <a href="#"><i className="fa fa-user-circle"></i><i className="fa fa-caret-down"></i></a>
+            <a href="#"><i className="fa fa-cog"></i><i className="fa fa-caret-down"></i></a>
+          </div>
         </div>
-
       </div>
     );
   }

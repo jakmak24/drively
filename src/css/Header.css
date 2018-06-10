@@ -60,19 +60,37 @@ div.Main-menu li {
     margin-right: 1%
 }
 
-div.Main-menu a.active {
+div.Main-menu a.active.NavItem {
   border-bottom: 7px solid var(--COLOR-MAIN-THEME-LOGO);
 }
 
-div.Main-menu a:hover:not(.active){
+div.Main-menu a.NavItem:hover:not(.active){
   border-bottom: 7px solid rgb(171, 70, 0);
 }
 
-div.Main-menu a {
+div.Main-menu a.NavItem {
     text-size: 35px;
     color: var(--COLOR-WHITE);
     display: block;
     text-decoration: none;
+}
+
+.ManageAccont{
+  width:20%;
+  float:right;
+  font-size: 40px;
+  padding-right: 4%;
+}
+
+.ManageAccont a{
+  color: var(--COLOR-WHITE);
+  width: 75px;
+  float: right;
+  margin-right: 5%;
+}
+
+.ManageAccont i{
+  margin-right: 5%;
 }
 
 /*.Header{
