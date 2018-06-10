@@ -38,3 +38,9 @@ min-width: 500px;
 .UpcomingListItem {
   padding: 0px;
 }
+
+.Upcoming button{
+  border-radius: 10px;
+  width:15%;
+  margin:1% 2%;
+}

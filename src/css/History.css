@@ -52,3 +52,9 @@
   padding: 0px;
 
 }
+
+.History button{
+  border-radius: 10px;
+  width:15%;
+  margin:1% 2%;
+}

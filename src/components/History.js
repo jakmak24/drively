@@ -10,17 +10,16 @@ export default class History extends React.Component {
           <li><HistoryListItem category="payment" name="mandat" car="BMW" date="14.07.2018" cost="120zł"/></li>
           <li><HistoryListItem category="refuel" name="tankowanie" car="Opel" date="13.07.2018" cost="100zł"/></li>
           <li><HistoryListItem category="service" name="tankowanie" car="Skoda" date="12.07.2018" cost="80zł"/></li>
-            <li><HistoryListItem category="payment" name="mandat" car="BMW" date="14.07.2018" cost="120zł"/></li>
-            <li><HistoryListItem category="refuel" name="tankowanie" car="Opel" date="13.07.2018" cost="100zł"/></li>
-            <li><HistoryListItem category="service" name="tankowanie" car="Skoda" date="12.07.2018" cost="80zł"/></li>
-              <li><HistoryListItem category="payment" name="mandat" car="BMW" date="14.07.2018" cost="120zł"/></li>
-              <li><HistoryListItem category="refuel" name="tankowanie" car="Opel" date="13.07.2018" cost="100zł"/></li>
-              <li><HistoryListItem category="service" name="tankowanie" car="Skoda" date="12.07.2018" cost="80zł"/></li>
-                <li><HistoryListItem category="payment" name="mandat" car="BMW" date="14.07.2018" cost="120zł"/></li>
-                <li><HistoryListItem category="refuel" name="tankowanie" car="Opel" date="13.07.2018" cost="100zł"/></li>
-
-          <button>View All</button>
+          <li><HistoryListItem category="payment" name="mandat" car="BMW" date="14.07.2018" cost="120zł"/></li>
+          <li><HistoryListItem category="refuel" name="tankowanie" car="Opel" date="13.07.2018" cost="100zł"/></li>
+          <li><HistoryListItem category="service" name="tankowanie" car="Skoda" date="12.07.2018" cost="80zł"/></li>
+          <li><HistoryListItem category="payment" name="mandat" car="BMW" date="14.07.2018" cost="120zł"/></li>
+          <li><HistoryListItem category="refuel" name="tankowanie" car="Opel" date="13.07.2018" cost="100zł"/></li>
+          <li><HistoryListItem category="service" name="tankowanie" car="Skoda" date="12.07.2018" cost="80zł"/></li>
+          <li><HistoryListItem category="payment" name="mandat" car="BMW" date="14.07.2018" cost="120zł"/></li>
+          <li><HistoryListItem category="refuel" name="tankowanie" car="Opel" date="13.07.2018" cost="100zł"/></li>
         </ul>
+        <button>View All</button>
       </div>
     );
   }
