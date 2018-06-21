@@ -6,14 +6,15 @@ import CarNavigator from "./CarNavigator"
 export default class SideBar extends React.Component {
   constructor(props){
     super(props);
+    //debugger;
     this.test = props.carSelectedParent;
     //this.carSelected = props.carSelectedParent;
   }
 
   carSelected(car){
-    //debugger;
+    debugger;
     //this.test();
-    console.log("Sucess");
+    console.log(this);
   }
 
   render() {
