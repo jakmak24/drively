@@ -8,6 +8,9 @@ import CarView from "./CarView"
 export default class Layout extends React.Component {
   constructor(props){
     super(props);
+
+    this.child = React.createRef();
+
     this.state = {
       MvVisibility: {display:"block"},
       CvVisibility: {display:"none"}
@@ -19,11 +22,12 @@ export default class Layout extends React.Component {
   }
 
   carSelected(car){
+    this.child.current.ShowCar(car);
     this.setState({
       MvVisibility: {display:"none"},
       CvVisibility: {display:"block"}
     }, ()=>{
-      console.log(this.state);
+      console.log('Show car');
     });
   }
 
@@ -36,8 +40,8 @@ export default class Layout extends React.Component {
           <div className="container" style={this.state.MvVisibility}>
             <MainView />
           </div>
-          <div style={this.state.CvVisibility}>
-            <CarView />
+          <div className="container" style={this.state.CvVisibility}>
+            <CarView ref={this.child} />
           </div>
         </div>
       </div>

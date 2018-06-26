@@ -48,7 +48,7 @@ div.Main-menu ul {
   margin: 0;
   padding: 0 0 0 2%;
   position:relative;
-  top: 97px;
+  top: 90px;
 }
 
 div.Main-menu li {
@@ -69,7 +69,7 @@ div.Main-menu a.NavItem:hover:not(.active){
 }
 
 div.Main-menu a.NavItem {
-    text-size: 35px;
+    font-size: 20px;
     color: var(--COLOR-WHITE);
     display: block;
     text-decoration: none;
