@@ -6,7 +6,7 @@ export default class Upcoming extends React.Component {
   render() {
     return (
       <div className ="Upcoming">
-        <div>Upcoming events</div>
+        <h3>Upcoming events</h3>
         <ul>
           <li><UpcomingListItem category="payment" name="mandat" car="BMW" date="14.07.2018" /></li>
           <li><UpcomingListItem category="refuel" name="tankowanie" car="Opel" date="13.07.2018" /></li>
@@ -14,7 +14,7 @@ export default class Upcoming extends React.Component {
           <li><UpcomingListItem category="payment" name="mandat" car="BMW" date="14.07.2018" /></li>
           <li><UpcomingListItem category="refuel" name="tankowanie" car="Opel" date="13.07.2018" /></li>
           <li><UpcomingListItem category="service" name="tankowanie" car="Skoda" date="12.07.2018" /></li>
-          
+
         </ul>
         <button>View All</button>
       </div>

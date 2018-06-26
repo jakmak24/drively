@@ -1,15 +1,17 @@
 import React from 'react';
 import "../css/Header.css";
 import 'font-awesome/css/font-awesome.min.css';
+// import jquery from 'jquery';
 
 export default class Header extends React.Component {
 
   constructor(props){
     super(props);
-    this.state = {dashboardActive : true,
-    vehiclesActive : false,
-    operationsActive : false,
-    statisticsActive : false
+    let path = window.location.pathname;
+    this.state = {dashboardActive : (path.indexOf("Dashboard") > -1) || path.length == 1,
+    vehiclesActive : path.indexOf("Vehicles") > -1,
+    operationsActive : path.indexOf("Operations") > -1,
+    statisticsActive : path.indexOf("Statistics") > -1
   }
     //this.activate = this.activate.bind(this);
   }
@@ -52,10 +54,10 @@ else if(state.indexOf("statistics")>-1)
         </div>
         <div className="Main-menu">
           <ul>
-          <li><a className={this.state.dashboardActive ? "active NavItem" : "NavItem"} onClick={() => this.activate("dashboard")} href="#/Dashboard">Dashboard</a></li>
-          <li><a className={this.state.vehiclesActive ? "active NavItem" : "NavItem"} onClick={() => this.activate("vehicles")} href="#/Vehicles">Vehicles</a></li>
-          <li><a className={this.state.operationsActive ? "active NavItem" : "NavItem"} onClick={() => this.activate("operations")} href="#/Operations">Operations</a></li>
-          <li><a className={this.state.statisticsActive ? "active NavItem" : "NavItem"} onClick={() => this.activate("statistics")} href="#/Statistics">Statistics</a></li>
+          <li><a className={this.state.dashboardActive ? "active NavItem" : "NavItem"} onClick={() => this.activate("dashboard")} href="/Dashboard">Dashboard</a></li>
+          <li><a className={this.state.vehiclesActive ? "active NavItem" : "NavItem"} onClick={() => this.activate("vehicles")} href="/Vehicles">Vehicles</a></li>
+          <li><a className={this.state.operationsActive ? "active NavItem" : "NavItem"} onClick={() => this.activate("operations")} href="/Operations">Operations</a></li>
+          <li><a className={this.state.statisticsActive ? "active NavItem" : "NavItem"} onClick={() => this.activate("statistics")} href="/Statistics">Statistics</a></li>
           </ul>
           <div className="ManageAccont">
           <br />

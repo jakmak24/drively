@@ -1,5 +1,6 @@
 import React from 'react';
 import "../css/CarNavigator.css";
+import "font-awesome/css/font-awesome.min.css";
 
 import CarAvatar from "./CarAvatar";
 
@@ -48,7 +49,8 @@ export default class CarNavigator extends React.Component {
         </div>
         <div>
           <input className="Search" type="text" id="vehicleFilter" placeholder="Search for vehicles.."></input>
-          <button className="Search">O</button>
+          <button className="Search">
+          <i className="fa fa-search"></i></button>
         </div>
 
         {this.carList.map(item => <CarAvatar

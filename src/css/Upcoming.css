@@ -7,6 +7,9 @@ border: 1px solid black;
 min-width: 500px;
 }
 
+.Upcoming > h3{
+  margin-left: 2%;
+}
 
 .Upcoming ul{
   padding: 0;
@@ -22,21 +25,22 @@ min-width: 500px;
 
 }
 
-
 .UpcomingListItem li{
-
   display: inline-block;
   margin:0px;
   vertical-align: middle;
   height: 100%;
-  width: 110px;
+  width: 25%;
   min-width: 70px;
-
 }
-
 
 .UpcomingListItem {
   padding: 0px;
+}
+
+.UpcomingListItem img{
+  margin-top: 5px;
+  height: 35px;
 }
 
 .Upcoming button{

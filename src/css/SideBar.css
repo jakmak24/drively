@@ -20,6 +20,15 @@ p.Garage{
   float: left;
 }
 
+.container{
+  /* text-align: center; */
+}
+
+.container > img{
+  max-width: 100%;
+  margin-bottom: 15px;
+}
+
 .addNew{
   font-size: 18px;
   margin-top: 10%;

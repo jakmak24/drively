@@ -20,12 +20,11 @@
 
 }
 
-
-
 input.Search{
   background: white;
   margin-left: 5%;
   margin-bottom: 5%;
+  padding-left: 2%;
   width: 82.5%;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
@@ -33,11 +32,14 @@ input.Search{
 
 button.Search{
   text-align: center;
-  margin-left: -5%;
+  padding: 2px;
+  margin-left: -7%;
   margin-right: 5%;
   margin-bottom: 5%;
   width: 10%;
   border-radius: 10px;
+  background-color: white;
+  border-color: GREY;
 }
 
 /*
