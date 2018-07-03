@@ -6,7 +6,7 @@ export default class QuickAdd extends React.Component {
   render() {
     return (
       <div className ="QuickAdd clearfix">
-        <p className="Title">QuickAdd</p>
+        <h3 className="Title">QuickAdd</h3>
         <div className="QuickOptions">
           <p>Refuel</p>
           <img src={window.location.origin + '/icons/refuel.svg'} alt="Refuel"></img>

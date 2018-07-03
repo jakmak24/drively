@@ -1,6 +1,10 @@
 import React from 'react';
 import '../css/CarView.css';
 
+import QuickAdd from "./QuickAdd";
+import History from "./History0";
+import Upcoming from "./Upcoming0";
+
 export default class CarView extends React.Component{
 
   constructor(props){
@@ -15,6 +19,7 @@ export default class CarView extends React.Component{
   render(){
     return(
       <div className="CarView">
+
         <div className="CarNavBar clearfix">
           <ul>
             <li><a href="#">Info</a></li>
@@ -22,17 +27,44 @@ export default class CarView extends React.Component{
             <li><a href="#">Reminders</a></li>
           </ul>
         </div>
-        <div className="Info">
+
+        <div className="CarInfo">
+
           <div className="GenInfo">
+            <h3>General Info</h3>
             <div className="InfoLeft">
-              <h3>General Info</h3>
+
               <img src={this.state.imgSrc} alt="car"></img>
             </div>
             <div className="InfoRight">
-              <p>Name:Bemka</p>
+              <div className="InfoRight-col1">
+                <p><b>Name: </b>Bemka</p>
+                <p><b>Brand: </b>BMW</p>
+                <p><b>Model: </b>Z3</p>
+                <p><b>Year: </b>1992</p>
+                <p><b>Color: </b>Niebieski</p>
+
+              </div>
+              <div className="InfoRight-col2">
+                <p><b>Engine: </b>1.2</p>
+                <p><b>Fuel type: </b>benzyna</p>
+                <p><b>Odometer: </b>120 000</p>
+                <p><b>Plate: </b>SK 123123</p>
+              </div>
+
             </div>
           </div>
+
+          <div className = "QuickUpcomingGroup">
+            <QuickAdd/>
+            <Upcoming/>
+          </div>
+          <History/>
+
         </div>
+
+
+
         <div className="Operations" style={{display:'none'}}>
         </div>
         <div className="Reminders" style={{display:'none'}}>

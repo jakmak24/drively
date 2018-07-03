@@ -5,6 +5,7 @@ width: 40%;
 float: left;
 border: 1px solid black;
 min-width: 500px;
+background-color: var(--COLOR-WHITE);
 }
 
 .Upcoming > h3{
@@ -45,6 +46,6 @@ min-width: 500px;
 
 .Upcoming button{
   border-radius: 10px;
-  width:15%;
+  width:70px;;
   margin:1% 2%;
 }

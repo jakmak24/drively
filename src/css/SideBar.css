@@ -27,6 +27,7 @@ p.Garage{
 .container > img{
   max-width: 100%;
   margin-bottom: 15px;
+  background-color: var(--COLOR-LIGHT-GREY);
 }
 
 .addNew{

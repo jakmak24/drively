@@ -2,31 +2,36 @@
 
 .QuickAdd{
   border: 1px solid black;
-  padding-left: 3%;
+
   width: 50%;
   min-width: 300px;
+  background-color: var(--COLOR-WHITE);
+
 }
 
 .Title{
   margin: 0px;
   margin-top: 8px;
+  margin-left: 2%;
 }
 
-div.QuickAdd > p{
+div.QuickAdd > h3{
   font-size: 20px;
   font-weight: bold;
 }
 
 div.QuickOptions{
-  background: lightgrey;
+
+  background: var(--COLOR-LIGHT-GREY);
   border: 1px solid black;
   width: 110px;
-  margin-left: 0px;
-  margin-right: 25px;
+  margin-left: 2%;
+
   float:left;
 }
 
 div.QuickOptions > img{
+
 float: right;
 width: 30px;
 height: 30px;
@@ -38,6 +43,7 @@ div.QuickOptions > p{
   font-weight: bold;
   float:left;
   margin: 10px 10px;
+
 }
 
 .clearfix::after {

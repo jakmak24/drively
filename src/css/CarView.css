@@ -3,6 +3,9 @@
 .CarView{
   padding: 0px;
   width: inherit;
+  background-color: var(--COLOR-LIGHT-GREY);
+  float: left;
+
 }
 
 .CarNavBar{
@@ -39,6 +42,8 @@
   border-bottom: 7px solid var(--COLOR-MAIN-THEME-LOGO);
 }
 
+
+
 .CarNavBar a:hover:not(.active){
   border-bottom: 7px solid rgb(171, 70, 0);
 }
@@ -50,15 +55,77 @@
    clear: both;
 }
 
+.CarInfo div{
+    margin:10px;
+}
+
+.CarInfo .Upcoming{
+    width: 100%;
+    min-width: 350px;
+
+}
+
+.CarInfo .UpcomingListItem li{
+  width:33%;
+}
+
+.CarInfo .History{
+    width: 33%;
+    min-width: 350px;
+
+
+}
+.QuickUpcomingGroup{
+  float: left;
+  width:45%;
+}
+
+.CarInfo .QuickAdd{
+    width: 100%;
+    min-width: 350px;
+
+}
+
+.GenInfo{
+background-color: var(--COLOR-WHITE);
+
+ width: 80%;
+  border: 1px solid black;
+
+}
+
+.GenInfo >h3{
+    margin-left: 2%;
+}
+
 .InfoLeft{
-  float:left;
+  width: 45%;
+  display: inline-block;
 }
 
 .InfoLeft img{
-  max-width: 400px;
-  max-height: 300px;
+  width: 100%;
+
 }
 
 .InfoRight{
-  float: left;
+  vertical-align:top;
+  width: 50%;
+  display: inline-block;
+    font-size: 20px;
+}
+
+
+.InfoRight-col1 {
+  vertical-align:top;
+  width: 40%;
+  display: inline-block;
+}
+
+
+
+.InfoRight-col2{
+  vertical-align:top;
+  width: 40%;
+  display: inline-block;
 }
