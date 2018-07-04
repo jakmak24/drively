@@ -15,6 +15,13 @@
 
 }
 
+.OperationModal{
+  float: left;
+}
+
+.ReminderModal{
+  float:left;
+}
 /* Modal Content/Box */
 .modal-content {
     background-color: var(--COLOR-LIGHT-GREY);
