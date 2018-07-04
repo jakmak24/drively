@@ -10,7 +10,5 @@
 }
 
 .MainView div{
-  background-color: var(--COLOR-WHITE);
   margin: 10px;
-
 }
