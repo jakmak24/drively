@@ -3,9 +3,9 @@
 .History{
   border: 1px solid black;
   width:40%;
-  float: left;
   min-width: 500px;
   background-color: var(--COLOR-WHITE);
+  float: left;
 }
 
 .History > h3{

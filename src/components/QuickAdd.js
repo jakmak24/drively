@@ -44,12 +44,9 @@ export default class QuickAdd extends React.Component {
 
         <Modal show={this.state.isOpen}
             onClose={this.toggleModal}>
-            Here's some content for the modal
+            "Here-s some content for the modal"
           </Modal>
       </div>
-
-
-
     );
   }
 }

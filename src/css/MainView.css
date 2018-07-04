@@ -1,14 +1,13 @@
 @import url("./Layout.css");
 
 .MainView{
-
+  min-height: 100%;
   background-color: var(--COLOR-LIGHT-GREY);
-  height: 100%;
   width: 100%;
   min-width: 700px;
   float: left;
 }
 
-.MainView div{
+.MainView > div{
   margin: 10px;
 }

@@ -8,10 +8,10 @@ import Upcoming from "./Upcoming";
 export default class MainView extends React.Component {
   render() {
     return (
-      <div className ="MainView">
+      <div className ="MainView clearfix">
         <QuickAdd/>
         <History/>
-        <Upcoming />
+        <Upcoming/>
       </div>
     );
   }

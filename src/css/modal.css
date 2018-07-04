@@ -2,13 +2,14 @@
 
 .modal {
 
-    position: fixed; /* Stay in place */
+    position: absolute; /* Stay in place */
     z-index: 1; /* Sit on top */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
+    margin: 0px;
+    left: 0px;
+    top: -130px;
+    bottom: 0px;
+    right: 0px;
+    overflow: hidden; /* Enable scroll if needed */
     background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
 
 
@@ -21,7 +22,7 @@
     border: 1px solid black;
     width: 40%; /* Could be more or less, depending on screen size */
     position: relative;
-    top:10%;
+    top:20%;
     left: 50%;
     transform: translateX(-50%);
     display:block;

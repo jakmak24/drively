@@ -2,11 +2,9 @@
 
 .QuickAdd{
   border: 1px solid black;
-
   width: 50%;
   min-width: 300px;
   background-color: var(--COLOR-WHITE);
-
 }
 
 .Title{
@@ -21,13 +19,18 @@ div.QuickAdd > h3{
 }
 
 div.QuickOptions{
-
+  margin: 10px;
   background: var(--COLOR-LIGHT-GREY);
   border: 1px solid black;
   width: 110px;
   margin-left: 2%;
 
   float:left;
+}
+
+div.QuickOptions:hover{
+  background-color: rgb(250,250,250);
+  cursor: pointer;
 }
 
 div.QuickOptions > img{
