@@ -10,7 +10,7 @@
     bottom: 0px;
     right: 0px;
     overflow: hidden; /* Enable scroll if needed */
-    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+    background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
 
 
 }
@@ -28,7 +28,7 @@
     padding: 20px;
     border: 1px solid black;
     width: 40%; /* Could be more or less, depending on screen size */
-    min-width:  600px;
+    min-width:  700px;
     position: relative;
     top:20%;
     left: 50%;

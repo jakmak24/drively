@@ -41,10 +41,14 @@ export default class CarNavigator extends React.Component {
       <div className ="CarNavigator">
         <div className ="Filters">
           <select className="Select">
-            <option value="Status">Status</option>
+            <option value="Status">Status: All</option>
+            <option value="Status">Active</option>
+            <option value="Status">Inactive</option>
           </select>
           <select className="Select">
+            <option value="Favorites">Favorite:All</option>
             <option value="Favorites">Favorites</option>
+            <option value="Favorites">Unfavorites</option>
           </select>
         </div>
         <div>
