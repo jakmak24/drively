@@ -16,52 +16,58 @@
 }
 
 .OperationModal{
-  float: left;
+  margin-left: 30px;
 }
 
 .ReminderModal{
-  float:left;
+  margin-left: 30px;
 }
+
+.ModalContainer{
+  float:left;
+  max-width: 300px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
 /* Modal Content/Box */
 .modal-content {
     background-color: var(--COLOR-LIGHT-GREY);
     padding: 20px;
     border: 1px solid black;
-    width: 40%; /* Could be more or less, depending on screen size */
-    position: relative;
-    top:20%;
-    left: 50%;
-    transform: translateX(-50%);
-    display:block;
+    display:inline-block;
+    /* max-width: 50%; Could be more or less, depending on screen size */
+    margin-top:15%;
+    margin-left: 25%; 
+}
 
+.topOptions{
+max-width: 245px;
+margin-left: 30px;
 }
-.modal-form{
-  width: 50%;
-}
+
+/* .modal-form{
+}*/
 
 .form-element{
-  display: flex;
-}
+  margin-top: 15px;
+} 
 
 
 .input-div{
-  width:30%;
   margin:0px;
+  padding: 0px;
+float: right;
 }
 
 .form-label{
-  width:20%;
-  margin: 10px;
+  margin-top: 10px;
 }
 
 .modal-footer button{
 
   float:right;
 }
-
-
-
-
 
 .switch {
   position: relative;

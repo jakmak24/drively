@@ -2,6 +2,14 @@ import React from 'react';
 import "../css/modal.css"
 
 export default class OperationModal extends React.Component {
+  constructor(props){
+    super(props);
+
+    this.state={
+      reminder : true
+    }
+  }
+
   render(){
     return (
       <div className="OperationModal">
@@ -46,7 +54,8 @@ export default class OperationModal extends React.Component {
             <div className = "input-div">
               <label className="switch">
                 <input type="checkbox"></input>
-                <span className="slider round"></span>
+                <span className="slider round" onClick={()=>{this.setState({reminder: !this.state.reminder});
+                this.props.toggleReminder(this.state.reminder);}}></span>               
               </label>
 
             </div>

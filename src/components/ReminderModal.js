@@ -9,7 +9,7 @@ export default class ReminderModal extends React.Component {
           <div className = "form-element">
             <label className="form-label">Date</label>
             <div className = "input-div">
-              <input type="text"></input>
+              <input type="text" value="11.06.2018"></input>
             </div>
           </div>
 
@@ -25,7 +25,7 @@ export default class ReminderModal extends React.Component {
           <div className = "form-element">
             <label className="form-label">Cost</label>
             <div className = "input-div">
-              <input type="text"></input>PLN
+              <input type="text" value="100.00"></input>PLN
             </div>
           </div>
 
