@@ -28,6 +28,7 @@
     padding: 20px;
     border: 1px solid black;
     width: 40%; /* Could be more or less, depending on screen size */
+    min-width:  600px;
     position: relative;
     top:20%;
     left: 50%;
@@ -54,8 +55,11 @@
   margin: 10px;
 }
 
-.modal-footer button{
+.modal-footer{
+  overflow: hidden;
+}
 
+.button-div{
   float:right;
 }
 
