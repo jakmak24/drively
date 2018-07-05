@@ -10,7 +10,7 @@
     bottom: 0px;
     right: 0px;
     overflow: hidden; /* Enable scroll if needed */
-    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+    background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
 
 
 }
@@ -30,6 +30,10 @@
   margin-bottom: 30px;
 }
 
+.modal div{
+  margin: 0px;
+}
+
 /* Modal Content/Box */
 .modal-content {
     background-color: var(--COLOR-LIGHT-GREY);
@@ -37,8 +41,8 @@
     border: 1px solid black;
     display:inline-block;
     /* max-width: 50%; Could be more or less, depending on screen size */
-    margin-top:15%;
-    margin-left: 25%; 
+    /* margin-top:10%;
+    margin-left: 25%;  */
 }
 
 .topOptions{
@@ -57,17 +61,45 @@ margin-left: 30px;
 .input-div{
   margin:0px;
   padding: 0px;
-float: right;
+  float: right;
 }
 
 .form-label{
   margin-top: 10px;
 }
 
-.modal-footer button{
+.modal-footer{
+  overflow: hidden;
+}
 
+.button-div{
   float:right;
 }
+
+.close{
+    background-color: var(--COLOR-LIGTH-WHITE);
+    font-size: 20px;
+    border-radius: 14px;
+    color: var(--COLOR-MAIN-THEME-BG);
+    border: 2px solid var(--COLOR-MAIN-THEME-BG);
+    margin-left:10px;
+    width : 100px;
+    height: 40px;
+}
+
+.save-btn{
+  background-color: var(--COLOR-MAIN-THEME-BG2);
+  font-size: 20px;
+  border-radius: 14px;
+  color: var(--COLOR-LIGHT-GREY);
+  border: 2px solid var(--COLOR-MAIN-THEME-BG2);
+  margin-left:10px;
+  width : 100px;
+  height: 40px;
+}
+
+
+
 
 .switch {
   position: relative;

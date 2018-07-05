@@ -31,7 +31,8 @@ toggleReminder(isShow){
 
     return (
       <div id="outside" className="modal" style={{margin:'0px'}}>
-        <div id="inside" className="modal-content" >
+        <div id="inside" className="modal-content" style={{margin:'0px', 'margin-top':'15%',
+    'margin-left': '25%'}}>
         <h3>Add operation</h3>
         <div className="topOptions">
           <div className = "form-element">
@@ -65,12 +66,15 @@ toggleReminder(isShow){
         </div>
 
           <div className = "modal-footer">
-            <button className="close" onClick={this.props.onClose}>
-              Close
-            </button>
-            <button type="submit" >
+            <div className="button-div">
+              <button className="close" onClick={this.props.onClose}>
+                Cancel
+              </button>
+            <button className ="save-btn" onClick={this.props.onClose}>
               Save
             </button>
+
+            </div>
           </div>
         </div>
       </div>

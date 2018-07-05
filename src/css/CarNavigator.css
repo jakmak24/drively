@@ -17,10 +17,14 @@
   width:40%;
   margin: 5%;
   border-radius: 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
 
 }
 
 input.Search{
+  padding-top: 3px;
+  padding-bottom: 3px;
   background: white;
   margin-left: 5%;
   margin-bottom: 5%;
@@ -28,11 +32,14 @@ input.Search{
   width: 82.5%;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
+  border-style: solid;
+  border-color: var(--COLOR-WHITE);
 }
 
 button.Search{
+
   text-align: center;
-  padding: 2px;
+  padding: 4px;
   margin-left: -7%;
   margin-right: 5%;
   margin-bottom: 5%;
@@ -40,6 +47,7 @@ button.Search{
   border-radius: 10px;
   background-color: white;
   border-color: GREY;
+  border-style: solid;
 }
 
 /*
