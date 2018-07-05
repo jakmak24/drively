@@ -45,12 +45,13 @@ closeModal(){
         </div>
 
           <div className = "modal-footer">
+            <button className ="save-btn" onClick={this.props.onClose}>
+              Save
+            </button>
             <button className="close" onClick={this.props.onClose}>
               Close
             </button>
-            <button type="submit" >
-              Save
-            </button>
+
           </div>
         </div>
       </div>

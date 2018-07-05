@@ -59,6 +59,27 @@
   float:right;
 }
 
+.close{
+    background-color: var(--COLOR-LIGTH-WHITE);
+    font-size: 20px;
+    border-radius: 14px;
+    color: var(--COLOR-MAIN-THEME-BG);
+    border: 2px solid var(--COLOR-MAIN-THEME-BG);
+    margin-left:10px;
+    width : 100px;
+    height: 40px;
+}
+
+.save-btn{
+  background-color: var(--COLOR-MAIN-THEME-BG2);
+  font-size: 20px;
+  border-radius: 14px;
+  color: var(--COLOR-LIGHT-GREY);
+  border: 2px solid var(--COLOR-MAIN-THEME-BG2);
+  margin-left:10px;
+  width : 100px;
+  height: 40px;
+}
 
 
 
