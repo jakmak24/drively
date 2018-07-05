@@ -55,7 +55,7 @@
    clear: both;
 }
 
-.CarInfo div{
+.CarInfo > div{
     margin:10px;
 }
 
@@ -63,6 +63,10 @@
     width: 100%;
     min-width: 350px;
 
+}
+
+.Upcoming div{
+  margin:10px;
 }
 
 .CarInfo .UpcomingListItem li{
@@ -75,15 +79,32 @@
 
 
 }
+
+.History div{
+  margin: 10px;
+}
+
 .QuickUpcomingGroup{
   float: left;
   width:45%;
+}
+
+.QuickUpcomingGroup > div{
+  margin:10px;
 }
 
 .CarInfo .QuickAdd{
     width: 100%;
     min-width: 350px;
 
+}
+
+.QuickAdd > div{
+  margin:10px;
+}
+
+.GenInfo div{
+  margin:10px;
 }
 
 .GenInfo{
